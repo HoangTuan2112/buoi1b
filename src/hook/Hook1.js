@@ -9,8 +9,8 @@ export default function Hook1() {
     let [textB, setTextB] = useState('');
   return (
     <div>
-        <p>{name} {a} {b}</p>
-        <input type="text" placeholder='nhap ten di' onChange={(e)=>setName(e.target.value)}/><br/>
+        {/* <p>{name} {a} {b}</p>
+        <input type="text" placeholder='nhap ten di' onChange={(e)=>setName(e.target.value)}/><br/> */}
 
         <input type="text" placeholder='' value={result} readOnly/><br/>
         <input type="text" placeholder='nhap a' value={a}  onChange={(e)=>setA(e.target.value) } /><br/>
